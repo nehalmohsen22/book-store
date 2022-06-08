@@ -1,5 +1,6 @@
 import { createApp } from "vue";
 // import App from "./App.vue";
-import MainApp from "./MainApp.vue";
+// import MainApp from "./MainApp.vue";
+import Wrapper from "./wrapperComponent.vue";
 
-createApp(MainApp).mount("#app");
+createApp(Wrapper).mount("#app");
